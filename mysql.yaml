@@ -1,7 +1,7 @@
 - name: configure my sql server
   hosts: mysql
-  become: yes
+  become: yes #remote server
   vars_files:
-  - /var/expense/credentials.yaml
+  - /var/expense/credentials.yaml #ansible server
   roles:
   - mysql
