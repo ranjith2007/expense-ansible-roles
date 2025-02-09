@@ -1,8 +1,8 @@
 - name: ansible to install pymysql
-    ansible.builtin.pip:
-      name:
-      - PyMySQL
-      executable: pip3.9
+  ansible.builtin.pip:
+    name:
+    - PyMySQL
+    executable: pip3.9
 
   - name: install mysql
     ansible.builtin.package:
