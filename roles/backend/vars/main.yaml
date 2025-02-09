@@ -1,2 +1,4 @@
 mysql_root_password: ExpenseApp@1
 login_host: mysql.devops81s.site
+app_loaction: /app 
+component: backend
